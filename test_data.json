@@ -1,0 +1,86 @@
+[
+  {
+    "test_case_id": "cairo_chill_evening",
+    "inputs": {
+      "user_prompt": "Looking for something chill after work.",
+      "location": "Cairo",
+      "time": "Weekday Evening",
+      "mood": "chill"
+    },
+    "ideal_recommendations": [
+      "Art cafés",
+      "Meditation events",
+      "Movie nights nearby"
+    ]
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "inputs": {
+      "user_prompt": "User opens app on a Friday at 8 PM.",
+      "location": "Dubai",
+      "time": "Friday 8 PM",
+      "mood": "happy"
+    },
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ]
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "inputs": {
+      "user_prompt": "I'm on my own this weekend and want to be outdoors.",
+      "location": "Riyadh",
+      "time": "Solo Weekend",
+      "mood": "lonely + outdoors"
+    },
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ]
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "inputs": {
+      "user_prompt": "I need to burn off some steam tonight.",
+      "location": "Dubai",
+      "time": "Tuesday Evening",
+      "mood": "energetic"
+    },
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ]
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "inputs": {
+      "user_prompt": "What is there to discover in the city this morning?",
+      "location": "Cairo",
+      "time": "Saturday Morning",
+      "mood": "curious"
+    },
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ]
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "inputs": {
+      "user_prompt": "Need a family-friendly activity for this rainy Sunday afternoon.",
+      "location": "Riyadh",
+      "time": "Sunday Afternoon",
+      "mood": "family-oriented"
+    },
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ]
+  }
+]
