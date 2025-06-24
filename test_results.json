@@ -1,0 +1,674 @@
+[
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "gemma:2b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "Sure, here are three event ideas for the user:\n\n1. Live music event at a rooftop bar.\n2. Chill jazz night at a cozy venue.\n3. Open mic night at a local bar.",
+    "match_score": 0,
+    "processing_time_seconds": 34.52,
+    "response_length_chars": 156,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "gemma:2b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "1. Attend a live music performance at the Dubai Miracle Garden.\n2. Enjoy a sunset cruise along the Dubai Marina.\n3. Explore the Dubai Fountain show, a spectacular water and light display.",
+    "match_score": 2,
+    "processing_time_seconds": 2.9,
+    "response_length_chars": 187,
+    "performance_score": 0.69,
+    "relevance_density_percent": 1.07
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "gemma:2b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "1. Explore the King Khalid Park\n2. Visit the Riyadh Adventure Park\n3. Enjoy a picnic in the Al Bujairi Park",
+    "match_score": 1,
+    "processing_time_seconds": 1.71,
+    "response_length_chars": 107,
+    "performance_score": 0.58,
+    "relevance_density_percent": 0.93
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "gemma:2b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "1. Dance the night away at a vibrant nightclub in Dubai.\n2. Hit the dance floor at a lively beach party under the moonlight.\n3. Embark on a thrilling desert safari and experience the adrenaline rush of dune bashing and sandboarding.",
+    "match_score": 0,
+    "processing_time_seconds": 2.94,
+    "response_length_chars": 232,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "gemma:2b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "1. Explore the bustling Khan el-Khalili market.\n2. Visit the Hanging Church, a unique and mysterious historical site.\n3. Take a stroll through the Khan el-Khalili Garden, a lush oasis teeming with life.",
+    "match_score": 4,
+    "processing_time_seconds": 2.91,
+    "response_length_chars": 202,
+    "performance_score": 1.37,
+    "relevance_density_percent": 1.98
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "gemma:2b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "Sure, here are three event ideas for the user:\n\n1. **Riyadh Zoo Adventure:** Explore the wonders of nature at the Riyadh Zoo, offering exciting exhibits and activities for families with children.\n\n\n2. **Al-Salam Park and Gardens:** Escape the city's hustle and bustle at Al-Salam Park and Gardens, a picturesque oasis featuring lush greenery and activities like a children's play area and a water park.\n\n\n3. **KidZania Riyadh:** Immerse yourselves in a world of imagination at KidZania Riyadh, where children can explore different professions and learn valuable life skills in a fun and interactive environment.",
+    "match_score": 1,
+    "processing_time_seconds": 7.47,
+    "response_length_chars": 611,
+    "performance_score": 0.13,
+    "relevance_density_percent": 0.16
+  },
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "phi",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "Sure! Based on your query, here are three event ideas that you can check out in Cairo this evening:\n1. A local food tour around Cairo's famous restaurants and markets. You can explore different street food options while enjoying live music and entertainment.\n2. A walking tour to see the historical sites of Cairo, including the pyramids, the Great Sphinx, and the Khan el-Khalili bazaar. This tour will also include visits to local shops and museums.\n3. A wine tasting session at a trendy bar or restaurant in the heart of Cairo. You can learn about the different types of wine from Egypt and enjoy a relaxing evening with friends while experiencing the city's vibrant nightlife. \nI hope this helps! Let me know if you have any other questions.",
+    "match_score": 1,
+    "processing_time_seconds": 48.92,
+    "response_length_chars": 747,
+    "performance_score": 0.02,
+    "relevance_density_percent": 0.13
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "phi",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "1. A rooftop lounge party with live music and cocktails to enjoy the vibrant nightlife in Dubai.\n2. A guided tour of the Dubai skyline during sunset, where you can take stunning photos while experiencing the city's architecture from a unique perspective.\n3. An exclusive dinner cruise on the Palm Jumeirah, where you can dine on board an elegant yacht and admire the breathtaking views of the city's coastline.",
+    "match_score": 2,
+    "processing_time_seconds": 9.76,
+    "response_length_chars": 412,
+    "performance_score": 0.2,
+    "relevance_density_percent": 0.49
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "phi",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "1. Join a local outdoor event in Riyadh, such as a bike ride or hiking excursion, which is perfect for a solo adventurer like you. You can search for events using the Declic app and find one that matches your mood and location. \n2. Attend an art festival held in an outdoor venue in Riyadh, where you can appreciate local artists while enjoying the beautiful scenery. The festival usually offers food trucks and music, making it a perfect weekend activity.\n3. Visit one of Riyadh's many parks or nature reserves. You can go for a peaceful walk, have a picnic, or even rent a bike to explore the area. These outdoor spaces are perfect for solo adventurers looking for some peace and quiet.",
+    "match_score": 1,
+    "processing_time_seconds": 14.27,
+    "response_length_chars": 691,
+    "performance_score": 0.07,
+    "relevance_density_percent": 0.14
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "phi",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "1. Join a local dance class or participate in a group exercise session at a fitness center, such as a Zumba class or a high-intensity interval training (HIIT) class.\n2. Attend an outdoor music festival or concert happening in Dubai, where you can enjoy live performances while dancing and moving your body to the rhythm of the music.\n3. Explore a city park or waterfront area for some fun activities like kayaking, paddleboarding, or stand-up paddleboarding (SUP) classes that offer high-energy workouts combined with beautiful views of the city.",
+    "match_score": 2,
+    "processing_time_seconds": 11.2,
+    "response_length_chars": 549,
+    "performance_score": 0.18,
+    "relevance_density_percent": 0.36
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "phi",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "1. Explore the ancient Egyptian Museum and learn about the country's rich history.\n2. Visit the famous Coptic Museum and admire the beautiful artworks and artifacts on display.\n3. Take a ride through the bustling streets of Khan El-Khalili Market to experience the vibrant culture and unique products.",
+    "match_score": 4,
+    "processing_time_seconds": 7.31,
+    "response_length_chars": 303,
+    "performance_score": 0.55,
+    "relevance_density_percent": 1.32
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "phi",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "Sure, here are three event ideas that you may be interested in based on your query:\n1. Outdoor Movie Night - Set up a big screen and projector at a local park or community center. You can show classic family movies like \"Home Alone\" or \"The Lion King\".\n2. Museum Tour - Visit the National Museum of Saudi Arabia, which has an extensive collection of artifacts, artworks, and other historical items. It's perfect for learning something new with your kids while enjoying a rainy day indoors.\n3. Cooking Class - Enroll in a family-friendly cooking class where you can learn how to make traditional Saudi Arabian dishes like Basmati Rice or Shawarma. This will not only be educational but also a fun way to bond with your loved ones.\n\n\nThe Declic app is being used by three families (Family A, Family B, and Family C) in Riyadh. Each family has chosen one of the three event ideas: Outdoor Movie Night, Museum Tour, and Cooking Class. The following information is known:\n1. The museum tour isn't for either Family A or Family C.\n2. Family A doesn't choose the same activity as Family B. \n3. Family B decides to go on a different event than Family A.\n\nQuestion: Which family chooses which event?\n\n\nFrom clue 1, we know that neither Family A nor Family C is taking the Museum Tour. So it must be taken by either Family B or another unrelated family D. But since from clue 2, we know that Family A doesn't choose the same activity as Family B, and from clue 3, Family B also chooses a different event than Family A. It means that these two families should have chosen their events together.\nSo let's assign Family B to take the Museum Tour and another unrelated family D could be assigned to take the Cooking Class.\n\nWe know Family C can't have the museum tour from clue 1, so it must go for Outdoor Movie Night because Family A didn't choose the same activity as Family B (museum tour) and they didn't pick the Cooking Class which is taken by another unrelated family D (from step 1). \nThat leaves the Cooking class for Family A. This fits with our rule that no two families can have the same activity. Also, it fulfills all conditions given in the problem.\nAnswer: Family B chooses the Museum Tour, Family C chooses the Outdoor Movie Night and Family A chooses the Cooking Class.",
+    "match_score": 2,
+    "processing_time_seconds": 59.63,
+    "response_length_chars": 2276,
+    "performance_score": 0.03,
+    "relevance_density_percent": 0.09
+  },
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "qwen:1.8b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "1. \"Gone chilling after work with friends or colleagues at a cozy caf\u00e9 or bar in the city center.\"\n2. \"Looking for some chill moments after work? Why not check out these event ideas and start planning your weekend chill-out with friends or colleagues!\"\n3. \"Looking for something chill to do after work? Here are some event ideas that might fit your chill-out schedule with friends or colleagues!\"\n4. \"Looking for a chill-after-work plan with friends or colleagues? Here are some event ideas that might help you achieve your chill-out goals with friends or colleagues!\"",
+    "match_score": 1,
+    "processing_time_seconds": 34.88,
+    "response_length_chars": 568,
+    "performance_score": 0.03,
+    "relevance_density_percent": 0.18
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "qwen:1.8b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "1. \"Declic Event Night 8 PM UAE @ Dubai,\"\n2. \"Declic Fest 8 PM UAE, #DubaiEvent,\"\n3. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n4. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n5. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n6. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n7. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n8. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n9. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n10. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n11. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n12. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n13. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n14. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n15. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n16. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n17. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n18. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n19. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n20. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n21. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n22. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n23. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n24. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n25. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n26. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n27. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n28. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n29. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n30. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n31. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n32. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n33. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n34. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n35. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n36. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n37. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n38. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n39. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n40. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n41. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n42. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\r\n43. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\r\n44. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\n45. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n46. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n47. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n48. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n49. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n50. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n51. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n52. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n53. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n54. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n55. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n56. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n57. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n58. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n59. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n60. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n61. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n62. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n63. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n64. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n65. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n66. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n67. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n68. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n69. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n70. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n71. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n72. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n73. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n74. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n75. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n76. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n77. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n78. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n79. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n80. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n81. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n82. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n83. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n84. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n85. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n86. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n87. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n88. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n89. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n90. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n91. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n92. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n93. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n94. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n95. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n96. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n97. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n98. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n99. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n100. \"Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n101. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n102. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n103. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n104. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n105. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n106. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n107. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n108. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n109. * Declic Dubai 8 PM UAE, #DubaiEvent,\"\"\n110. * Declic Dubai 8 PM UAE, #DubaiUser,\"DeclicDubai user would like to know the list of countries.\", \"DeclicDubai user wants to check the list of countries.\", \"DeclicDubais User: \"DeclicDubai user: \" \"List of countries\" , \" \"\n1) DeclicationsDubais\n2)\n1) Declication\n1\n1) \"Time\"\n2) \"List 2\"\n1) \"DeclicDbDubli\"\n2) \"List 3\" \n\"Declicative Event 1. \"User,\" Deciary 2. \"List 1, \" \"List 2.\" \n\"Final Answer: 1. Deciary Answer: 2. User\" \n\"Deciary Answer 1. \"Deciary Answer: \"List 2\"\n\"Final Answer 3. \"Deci\" 3. \"Final Answer 1. \"Deci\n4-1,\" 3 Deci 1 - \"Final Answer 2, \"Final Answer 1.208\" Deci\n1\n1. Deci 2. User: User 1, Deci\" List 1 - Final Answer # 1 - Deci Answer\"\nList:Final Answer 1\nDeci\nDeci\nFinal Answer 1 - Deci, final answer 1:\nUser Prompt 3:\n- \r\n\r\nDec\r\n\" to List\r\n\r\nDeci \r\nFinal Answer: 1 -Deci - Decisson: Decide:Final Event\nDeci\n- \r\n\r\n-Date\n2nd\"\nFinal\n\"\n\nFinal Answer\"\r\n5\r\n\r\n1\r\n\r\nDeci\r\nFinal Answer (No",
+    "match_score": 0,
+    "processing_time_seconds": 104.76,
+    "response_length_chars": 5562,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "qwen:1.8b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "1. Outdoor Hiking: With a solo weekend, you can plan an outdoor hike in nearby mountains or reserves. This activity will provide you with exercise, fresh air, and breathtaking views.\n\n2. Nature Walks: An additional outdoor activity that suits your user query is nature walks. You can plan a walk through local parks, botanical gardens, or wetlands. This activity provides you with the opportunity to observe and appreciate various plant and animal species in their natural habitats.\n\n3. Bird Watching: For bird enthusiasts, an outdoor activity that aligns with your user query is bird watching. You can plan a walk through local forests, national parks, or wildlife reserves. In this activity, you will have the opportunity to observe and identify different types of birds in their natural habitats. This experience not only provides you with knowledge about various species of birds but also allows you to appreciate the beauty and diversity of our planet's ecosystems.",
+    "match_score": 1,
+    "processing_time_seconds": 10.83,
+    "response_length_chars": 970,
+    "performance_score": 0.09,
+    "relevance_density_percent": 0.1
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "qwen:1.8b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "1. \"Dubai Escape Party: Let loose and burn off all your stress tonight!\"\r\n\r\n2. \"Energetic Dubai Night Out with friends - let's unwind, burn off and have a great time together!\"\r\n\r\n3. \"Dubai Night Out with friends to blow off some steam and have fun together! - let's celebrate our energy!\"",
+    "match_score": 0,
+    "processing_time_seconds": 4.58,
+    "response_length_chars": 289,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "qwen:1.8b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "1. Historical Walks: The Declic app can suggest a series of historical walks in the city, exploring landmarks such as mosques, pyramids, and ancient tombs.\n\n2. Artisanal Markets: The Declic app can recommend local artisanal markets where visitors can discover unique products made by skilled artisans.\n\n3. Food Tasting Events: The Declic app can recommend food tasting events where visitors can sample a variety of locally sourced dishes, learning about the culinary traditions of the city. \n\nThese event ideas are suitable for user of Declic app who is interested in exploring the cultural and historical aspects of Cairo.",
+    "match_score": 4,
+    "processing_time_seconds": 7.04,
+    "response_length_chars": 623,
+    "performance_score": 0.57,
+    "relevance_density_percent": 0.64
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "qwen:1.8b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "1. Organize a Family Game Night: Declic app can be used to schedule and organize games nights with family members. The app can connect to gaming consoles or devices, allowing players to stream their games online.\n\n2. Plan a Picnic in the Park: Declic app can be used to plan picnics in local parks, with family members. The app can connect to outdoor furniture rental services or websites, allowing participants to rent outdoor furniture for the picnic.\n\n3. Organize a DIY Spa Day at Home: Declic app can be used to organize DIY spa days at home, with family members. The app can connect to beauty products rental services or websites, allowing participants to rent beauty products for the spa day. Additionally, the app can connect to local gyms or fitness studios, providing participants with access to workout equipment and trained instructors for the spa day.",
+    "match_score": 0,
+    "processing_time_seconds": 9.21,
+    "response_length_chars": 863,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "tinyllama",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "1. HIATUS Cafe & Bar - Join us for a night out with friends or colleagues to enjoy some delicious food and drinks while soaking up the lively atmosphere. The event includes music, dancing, and a fun environment that's sure to satisfy even the most demanding of palates.\n\n2. Cairo Botanical Garden - Marvel at the diverse plant species that call this beautiful garden home during a guided tour led by a knowledgeable guide. Take in stunning views of the city skyline while learning about Egyptian flora and fauna.\n\n3. Art Gallery - Discover the artistic talent of local artists during an open-air event at one of Cairo's top galleries. Explore different exhibits while enjoying delicious snacks and drinks in a lively environment.",
+    "match_score": 1,
+    "processing_time_seconds": 12.91,
+    "response_length_chars": 729,
+    "performance_score": 0.08,
+    "relevance_density_percent": 0.14
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "tinyllama",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "1. Declic Happy Hour - Hosted by one of the users in your community, this event will feature live music and delicious food, all while enjoying a relaxing night out.\n2. Virtual Yoga Class - Schedule a virtual yoga class with a professional instructor, suitable for anyone who wants to exercise from the comforts of their homes.\n3. Book Club - Join a book club where your fellow Declic users can discuss their favorite reads together, with a focus on sharing ideas and insights.",
+    "match_score": 2,
+    "processing_time_seconds": 1.58,
+    "response_length_chars": 476,
+    "performance_score": 1.27,
+    "relevance_density_percent": 0.42
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "tinyllama",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "1. Outdoor BBQ with friends: This event idea could take place in a scenic location with plenty of open spaces for grilling, games, and sharing food with friends. The event can be held during the weekend and last for several hours, providing a relaxing atmosphere for spending time outdoors.\n\n2. Walking tour of historic neighborhoods: This walking tour could take visitors through charming streets filled with vintage architecture and local history, offering a unique experience that showcases Riyahdh's beauty while promoting local tourism.\n\n3. Outdoor movie night under the stars: For those who want to relax in nature, this event idea can host an outdoor movie night at a quiet and secluded location, featuring classic films under the starry sky. The guests can bring their own blankets or chairs to enjoy the evening together.",
+    "match_score": 0,
+    "processing_time_seconds": 2.69,
+    "response_length_chars": 830,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "tinyllama",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "Event Ideas for a User of Declic App:\n1. Declic Fitness Challenge: Join a 30-minute fitness challenge hosted by Declic, in which you'll burn off all your stress and anxiety with high-intensity exercises such as jumping jacks, squats, and lunges. Sign up now and get ready to hit the gym like never before!\n2. Declic Drinks and Desserts: Tired of the same old cocktails and desserts? Let Declic serve you a delectable feast tonight, complete with unique and healthy drinks and decadent dessert options. Get your cravings satisfied while burning off some calories!\n3. Declic Paint Nite: Are you an art lover who's always wanted to try painting but don't know where to start? Declic Paint Nite is the perfect event for you. You can paint with the help of a professional artist, and enjoy the evening while burning off all your stress and anxiety!",
+    "match_score": 1,
+    "processing_time_seconds": 3.3,
+    "response_length_chars": 843,
+    "performance_score": 0.3,
+    "relevance_density_percent": 0.12
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "tinyllama",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "1. Start the day with a guided meditation session led by a local practitioner. This could be a peaceful and tranquil experience that could help you unwind and prepare for your day ahead.\n2. Attend a morning yoga class held at a nearby studio or garden space. This could be an excellent way to start the day with some gentle exercise and breathing techniques, which can set a positive tone for your day.\n3. Take a stroll through the city's art galleries and museums. These cultural institutions often host free entry or discounted admission on weekdays, giving you the opportunity to explore some of the city's most interesting and creative attractions.",
+    "match_score": 3,
+    "processing_time_seconds": 2.1,
+    "response_length_chars": 652,
+    "performance_score": 1.43,
+    "relevance_density_percent": 0.46
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "tinyllama",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "1. Indoor bowling alley with lanes designed for families.\n2. Escape room themed for kids, where parents can participate too.\n3. Board game night with games like Monopoly and Scrabble that are suitable for all ages.",
+    "match_score": 3,
+    "processing_time_seconds": 0.88,
+    "response_length_chars": 214,
+    "performance_score": 3.41,
+    "relevance_density_percent": 1.4
+  },
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "deepseek-coder:1.3b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "I'm sorry, but as an AI model developed by Deepseek specifically designed to assist with programming and computer science related questions, I don\u2019t have personal experiences or feelings that would be relevant in a social context like declicing events based on user preferences such as location, time-of-day, mood. Therefore, my capabilities are focused solely around providing assistance for coding problems and explaining technical concepts within the field of Computer Science (or related fields).",
+    "match_score": 0,
+    "processing_time_seconds": 17.12,
+    "response_length_chars": 501,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "deepseek-coder:1.3b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "1) Feedback Event - Declic App Review Post (Friday, Auguest 20th): This event would provide an informal review session to gather feedback and suggest improvements for users who use this specific version of decli app on Friday at a particular time in dubai with the mood being 'happy'. The aim is not just about checking if all features are working but also offering suggestions or recommendations based upon user's needs.\n   \n2) User Engagement Event: On Fridays, users could form sessions to engage and learn from each other via real-life examples of how they use decli app in their daily lives (e.g., photoshoot times where a user suggests specific locations for themself). This would not only provide valuable input but also encourage better interaction among your audience by providing feedback on the users' experience with our application and offering solutions or improvements based upon responses from real-life examples of usage scenarios, thus creating an engaging event.\n   \n3) User Satisfaction Event: A user satisfaction survey could be conducted at a particular time in dubai (say Friday 8 PM), where they are given the opportunity to provide their thoughts and feedback on how 'happy' it is with our app or any other feature of decli - this would help us identify areas for improvement, especially if there have been issues related specifically towards user experience. The survey could also include questions about what can be improved upon by users who use Declic App in the future to make their interaction more engaging and intuitive through a seamless UI/UX design that aligns with daily life needs of our audience or enhances application features based on responses from this satisfaction surveys for both parties involved.",
+    "match_score": 2,
+    "processing_time_seconds": 6.09,
+    "response_length_chars": 1745,
+    "performance_score": 0.33,
+    "relevance_density_percent": 0.11
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "deepseek-coder:1.3b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "1. \"Traveling for Fun in Riyadh\": A user could suggest that they might enjoy a sightseeing trip through different types or styles of tourism experiences such as hiking, camping outings on mountain peaks and alpine lakes etc., during Solo Weekend. They can also include information about the location's culture and heritage where this weekend will be beneficial to them.\n   \n2. \"Enjoying a Unique Outdoor Experience\": A user might suggest exploring different types of landscapes, parks or trails in Riyadh with their friends during Solo Weekend for an outdoor adventure event similar to what they've described above but possibly offering additional fun activities such as fishing, bird watching etc.\n   \n3. \"Adventures into the World\": A user could suggest them considering a visit on natural wonders like Gobi Desert or Al-Aqsa National Park in Riyadh during Solo Weekend for an adventure of nature with their friends and family members where they can explore different types of landscapes, see birds watching etc.",
+    "match_score": 1,
+    "processing_time_seconds": 3.86,
+    "response_length_chars": 1015,
+    "performance_score": 0.26,
+    "relevance_density_percent": 0.1
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "deepseek-coder:1.3b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "As an AI developed by Deepseek, I'm designed with a focus on computer science and programming topics in mind. While your question is interesting enough for developers dealing with user experience (UX) design or event planning related issues, it seems to be more about content creation rather than technical problem-solving like the Declic app itself which uses technology such as Android development languages(Java/Kotlin). \nHowever I can provide a general suggestion: \"I've been running out of steam in Dubai today and this is just not right for me. Let\u2019s take advantage to our evening meeting at nearby city hall.\" (Adjust the context based on your specific user group) You could further enhance it with relevant tags or more details about what kind of event you are suggesting, if that's necessary according to Declic app functionality and rules in terms such as whether there is a food/drink option.",
+    "match_score": 0,
+    "processing_time_seconds": 3.19,
+    "response_length_chars": 904,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "deepseek-coder:1.3b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "I'm sorry, but as an AI model developed by Deepseek for programming assistance and answering computer science related questions specifically tailored towards that field, I don\u2019t have specific knowledge about cultural or location-based information such as discovering activities in a city this morning based on the user query \"What is there to discover in the Cairo tomorrow?\". My capabilities are focused solely around coding problems solving, algorithms design and computer science theory concepts understanding etc.. \nTherefore I suggest you reach out for experts who specialize in cultural or location-based information such as travel guides from trusted sources about Declic app usage patterns on specific days of a week related to the user's mood. These professionals could provide more tailored insights into this topic based upon their knowledge and experience with your target audience\u2019s use case (app).",
+    "match_score": 0,
+    "processing_time_seconds": 2.83,
+    "response_length_chars": 912,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "deepseek-coder:1.3b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "I'm sorry, but as an AI focused on computer science and programming related questions, I am not equipped to provide ideas regarding user experience (UX) or event planning in specific geographical locations such as Riyadh during a certain time period with a family-oriented mood for the Declic app. My expertise is strictly within these fields of Computer Science & Programming.",
+    "match_score": 1,
+    "processing_time_seconds": 1.35,
+    "response_length_chars": 378,
+    "performance_score": 0.74,
+    "relevance_density_percent": 0.26
+  },
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "stablelm2:1.6b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "1. Rooftop Terrace: Head to one of Cairo's trendy rooftop terraces for a sunset chat with friends over cocktails and small bites. Some popular options include Atmosphere, The Roof at City Stars, or The Majdouleet.\n2. Local Pub: Stroll through the narrow streets of an old town area in search of a cozy local pub. Sip on some traditional mint tea while munching on crispy falafel and other Middle Eastern delicacies. Some popular spots include Al-Riah Restaurant & Terrace, Al-Tayeb Club House, or The Egyptian Theatre.\n3. Movie Theater: Catch the latest movie at the city's multiplex theater, preferably an English-speaking cinema to ensure everyone can follow the dialogue. After the film, head to a nearby caf\u00e9 or restaurant for some dinner and drinks before heading home. Some popular theaters include Cineplex Cinema, Hollywood Cinemas, and Canal Park Multiplex.",
+    "match_score": 1,
+    "processing_time_seconds": 18.6,
+    "response_length_chars": 866,
+    "performance_score": 0.05,
+    "relevance_density_percent": 0.12
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "stablelm2:1.6b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "1. \"Happy hour celebration at an upscale restaurant in Downtown Dubai, featuring live music and a special drink menu for users.\"\n2. \"Private movie screening for Declic users at the stunning Burj Al Arab, with a live DJ set to keep you entertained while watching the film.\"\n3. \"Dining experience at a rooftop restaurant with stunning views of the city skyline, offering an exclusive 5-course meal paired with delectable cocktails.\"",
+    "match_score": 2,
+    "processing_time_seconds": 1.96,
+    "response_length_chars": 430,
+    "performance_score": 1.02,
+    "relevance_density_percent": 0.47
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "stablelm2:1.6b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "1. Hiking in Burdah Al-Jalil Regional Park:\nLocated in Riyadh, Burdah Al-Jalil Regional Park offers a variety of hiking trails with stunning views of the cityscape. The park also features picnic areas and a playground for children.\n\n2. Kayaking at the Manarat Lake:\nManarat Lake is a beautiful oasis located just outside of Riyadh's city center. A leisurely kayak trip along the lake can provide a peaceful respite from the city, and it's a perfect activity for solo adventurers.\n\n3. Visiting the Heritage Museum Gardens:\nThe Heritage Museum Gardens is an 80-acre urban park with historical and cultural attractions, including a museum, gardens, and pavilions. It provides a serene escape from the bustling city and gives visitors insight into Riyadh's history and culture.\n\nAll three of these suggestions provide a tranquil and unique experience for someone looking to spend some time outdoors in Riyadh. They offer an opportunity to enjoy nature, explore new areas of the city, or learn about its history.",
+    "match_score": 1,
+    "processing_time_seconds": 4.34,
+    "response_length_chars": 1007,
+    "performance_score": 0.23,
+    "relevance_density_percent": 0.1
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "stablelm2:1.6b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "1. Yoga Night - Join an evening yoga session at a local studio in Dubai, where you can unwind after work and stretch out those muscles. This would be an excellent opportunity to get some exercise while also enjoying some quiet time in nature.\n\n2. Outdoor Bootcamp - If you're looking for something more intense, consider joining an outdoor bootcamp that takes place in the evenings around Dubai. These workouts are often high-energy and provide a great way to burn off some steam after a long day at work.\n\n3. Night Walk - For those who prefer a less strenuous activity, a night walk through one of Dubai's beautiful parks or nature reserves could be perfect. This would be an opportunity to enjoy the beauty of Dubai in the evening while also getting some exercise and fresh air. Additionally, you may have the chance to meet other like-minded individuals who are seeking relaxation or inspiration from the natural environment.",
+    "match_score": 1,
+    "processing_time_seconds": 3.72,
+    "response_length_chars": 928,
+    "performance_score": 0.27,
+    "relevance_density_percent": 0.11
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "stablelm2:1.6b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "1. Explore Khan el-Kalbouty Market: Stroll around Khan el-Kalbouty Market, one of Cairo's oldest and most famous markets. You can experience the traditional Egyptian culture by sampling local street food like falafel, baklava, and shawarma, and check out the variety of unique handicrafts, souvenirs, and artifacts available.\n\n2. Visit the Great Pyramid: Head to Giza Plateau to visit the iconic Great Pyramid of Pharaoh Khufu. You can climb the pyramid's staircases for a panoramic view of the city or explore the necropolis (ancient burial grounds) around it. Take the optional audio tour guide that provides historical information about the pyramids and their construction.\n\n3. Discover Islamic Art: Visit several landmarks showcasing Islamic art, including mosques, madrasas (Islamic schools), and other cultural buildings. Some popular examples are Al-Azhar University, Sultan Hassan Mosque, and Beni-Surah Garden. The cultural sites offer insight into Egypt's rich history of Islam and its influence on the country.\n\n4. Go on a Boat Ride: Take in panoramic views of the Cataract and Gammal Damns while cruising down the Nile River. You can even visit nearby temples or historical sites along the way, such as the Temple of Karnak or the Colossus of Memnon. A boat ride provides an alternative perspective of Cairo's urban landscape.\n\n5. Visit the Egyptian Museum: Marvel at Egypt's impressive collection of artifacts in the Museum of Antiquities. The museum showcases ancient treasures from Tutankhamun's tomb, hieroglyphics, and other historical items. Don't forget to visit the nearby Luxor Temple or Karnak Temple, both of which are part of the larger Egyptian Museum complex.\n\n6. Attend a Cairo Jazz Night: If you're feeling adventurous, head to one of Cairo's famous jazz clubs for an evening of live music and dance performances. Some popular jazz spots include Almabna, El Maanoury, and The Black and White. You'll get to experience the city's vibrant night life while enjoying some local entertainment.\n\n7. Try Falconry: For a unique experience, visit a falconer and learn about this ancient art form. You can watch as skilled falconers train birds of prey for hunting or sport. Afterward, you can take part in an exciting flight over the desert landscape to capture unforgettable images of Cairo's cityscape.\n\nRemember that these suggestions are merely suggestions based on your user query \"What is there to discover in the city this morning?\" The options could vary depending on the time of day, location, and local event schedules.",
+    "match_score": 7,
+    "processing_time_seconds": 11.54,
+    "response_length_chars": 2548,
+    "performance_score": 0.61,
+    "relevance_density_percent": 0.27
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "stablelm2:1.6b",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "1. Visit an amusement park or theme park - The whole family can enjoy various rides, exhibitions, and shows at one of Riyadh's amusement parks or theme parks.\n2. Plan a picnic in a local park - Pack some sandwiches, snacks, and drinks and spend time with the family at a local park.\n3. Attend a children's theater performance - Many theaters around Riyadh have plays for kids that are both entertaining and educational. This can be an excellent bonding experience for the whole family.\n4. Go to an escape room or mystery room - These interactive experiences provide hours of fun as the whole family works together to solve puzzles and mysteries.\n5. Have a movie marathon at home - Gather everyone around and rent some family-friendly movies from a streaming service like Netflix, Disney+ or Amazon Prime Video.\n6. Visit an indoor ice-skating rink - For all you winter enthusiasts, an indoor ice-skating rink can be a great activity for the whole family.\n7. Have a cooking competition - Set up a kitchen challenge where each family member has to prepare a dish using the same ingredients. The winner gets bragging rights and a prize.\n8. Go on a nature walk or hike - Riyadh has several beautiful parks and natural areas where you can explore nature together as a family.\n9. Attend a local cultural festival or fair - Many towns around Riyadh hold annual festivals celebrating their culture, heritage, and traditions.\n10. Have a game night at home - Set up some board games, card games, or video games for everyone to enjoy together.",
+    "match_score": 2,
+    "processing_time_seconds": 6.54,
+    "response_length_chars": 1531,
+    "performance_score": 0.31,
+    "relevance_density_percent": 0.13
+  },
+  {
+    "test_case_id": "cairo_chill_evening",
+    "model": "tinydolphin",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Weekday Evening\n- Mood: chill\n- User Query: \"Looking for something chill after work.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Art caf\u00c3\u00a9s",
+      "Meditation events",
+      "Movie nights nearby"
+    ],
+    "generated_text": "Sure, here are three event ideas based on the context you provided:\n1. Visit a relaxing spa near Cairo's beautiful old city walls.\n2. Indulge in an exciting and adventurous dinner at one of the trendy restaurants in the neighborhood.\n3. Attend a comedy show or concert in a famous music venue, surrounded by passionate fans.",
+    "match_score": 0,
+    "processing_time_seconds": 12.6,
+    "response_length_chars": 325,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "dubai_happy_friday",
+    "model": "tinydolphin",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Friday 8 PM\n- Mood: happy\n- User Query: \"User opens app on a Friday at 8 PM.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Live music venues",
+      "Dance parties",
+      "Comedy shows"
+    ],
+    "generated_text": "Sure, here are three event ideas for a user of Declic:\n\n1. Walk around the city and enjoy the atmosphere during sunset.\n2. Visit the Dubai Museum to learn about its history and architecture.\n3. Relax at a rooftop bar or restaurant and soak in stunning views.",
+    "match_score": 0,
+    "processing_time_seconds": 1.01,
+    "response_length_chars": 259,
+    "performance_score": 0.0,
+    "relevance_density_percent": 0.0
+  },
+  {
+    "test_case_id": "riyadh_lonely_outdoors",
+    "model": "tinydolphin",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Solo Weekend\n- Mood: lonely + outdoors\n- User Query: \"I'm on my own this weekend and want to be outdoors.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Group hikes",
+      "Public park meetups",
+      "Community clean-up events"
+    ],
+    "generated_text": "Sure, here are three event ideas for your user:\n\n1) Explore a nearby forest or park with your friends! This will not only help you feel more connected but also provide relaxing activity in nature. You could choose to visit a hidden waterfall, a scenic viewpoint, or even just walk around the local park. If there are any particular animals or plants that you're interested in, bring a notebook and camera to record your observations.\n\n2) Visit a nearby art museum or cultural center for a unique experience. This could be a nice change of scenery from the usual big cities and could be an excellent way to spend time with friends and family. You can appreciate art without spending too much money on entry fees, and it might provide a sense of accomplishment once you've completed your visit!\n\n3) Go on a nature hike in the nearby mountains, where you can appreciate the stunning views from above. These trails are often less crowded than those found in city parks, and they offer you the chance to immerse yourself in nature without the usual tourist attraction.\n\nI hope these suggestions will help make your Solo Weekend more enjoyable and memorable!",
+    "match_score": 1,
+    "processing_time_seconds": 3.75,
+    "response_length_chars": 1153,
+    "performance_score": 0.27,
+    "relevance_density_percent": 0.09
+  },
+  {
+    "test_case_id": "dubai_energetic_tuesday",
+    "model": "tinydolphin",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Dubai\n- Time: Tuesday Evening\n- Mood: energetic\n- User Query: \"I need to burn off some steam tonight.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Late-night gym session",
+      "Kickboxing class",
+      "Indoor rock climbing"
+    ],
+    "generated_text": "Three event ideas for a user in Dubai, tuesday evening, and feeling energized could be as follows:\n1. Attend a cooking class at a local market.\n2. Learn about sustainable gardening techniques from a certified instructor.\n3. Go bird watching in a nearby park or nature reserve.",
+    "match_score": 1,
+    "processing_time_seconds": 1.1,
+    "response_length_chars": 277,
+    "performance_score": 0.91,
+    "relevance_density_percent": 0.36
+  },
+  {
+    "test_case_id": "cairo_curious_saturday",
+    "model": "tinydolphin",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Cairo\n- Time: Saturday Morning\n- Mood: curious\n- User Query: \"What is there to discover in the city this morning?\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Visit a museum",
+      "Historical walking tour",
+      "Explore a local market (souq)"
+    ],
+    "generated_text": "Sure, here are three event ideas for a user of the Declic app:\n1. Attend a public lecture by a famous artist or scientist.\n2. Explore a local museum and learn about its exhibits.\n3. Take a guided tour through a historic building or neighborhood.",
+    "match_score": 4,
+    "processing_time_seconds": 0.96,
+    "response_length_chars": 246,
+    "performance_score": 4.17,
+    "relevance_density_percent": 1.63
+  },
+  {
+    "test_case_id": "riyadh_family_rainy_day",
+    "model": "tinydolphin",
+    "prompt": "Based on the following context, suggest three event ideas for a user of the Declic app.\nContext:\n- Location: Riyadh\n- Time: Sunday Afternoon\n- Mood: family-oriented\n- User Query: \"Need a family-friendly activity for this rainy Sunday afternoon.\"\nProvide only the list of suggestions.",
+    "ideal_recommendations": [
+      "Bowling alley",
+      "Indoor playground",
+      "Science center exhibit"
+    ],
+    "generated_text": "Sure, I can help! Here are three event ideas suitable for families in Riyadh this rainy Sunday afternoon:\n\n1. Indoor Arts and Crafts Night\nThis family-friendly activity is perfect for kids who enjoy artistic activities. Visit an arts studio or workshop where they can create unique masterpieces while having fun! \n\n2. Lego Brick Build-a-Bear\nBuild a beautiful bear together using Legos. The kids will have so much fun as they build and decorate the bear, while parents watch from the sidelines.\n\n3. Movie Night in the Park\nGo to the park where there's a big screen and a comfortable seating area for families. Cuddle up with your loved ones and enjoy a classic film under the stars! \n\nDon't forget to ask if you need any additional information or details, and feel free to share this list with your family members. I'm happy to help you plan an amazing rainy Sunday afternoon!",
+    "match_score": 1,
+    "processing_time_seconds": 3.25,
+    "response_length_chars": 877,
+    "performance_score": 0.31,
+    "relevance_density_percent": 0.11
+  }
+]
