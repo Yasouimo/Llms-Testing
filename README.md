@@ -15,12 +15,12 @@ This project evaluates the performance of four different Large Language Models (
 
 The following table provides a comparison of the models based on their parameters:
 
-| **Model**         | **Image ID**      | **Size** | **Last Updated** | **Notes**                  |
-|--------------------|-------------------|----------|------------------|----------------------------|
-| **phi:latest**     | e2fd6321a5fe     | 1.6 GB   | 8 minutes ago    | Balanced performance       |
-| **qwen:1.8b**      | b6e8ec2e7126     | 1.1 GB   | 8 minutes ago    | Lightweight, fast response |
-| **tinyllama:latest** | 2644915ede35   | 637 MB   | 9 minutes ago    | Smallest, fastest          |
-| **gemma:2b**       | b50d6c999e59     | 1.7 GB   | 20 minutes ago   | Largest, detailed output   |
+| **Model**         | **Image ID**      | **Size**  | **Notes**                  |
+|--------------------|-------------------|-----------|----------------------------------------------|
+| **phi:latest**     | e2fd6321a5fe     | 1.6 GB    | Balanced performance       |
+| **qwen:1.8b**      | b6e8ec2e7126     | 1.1 GB    | Lightweight, fast response |
+| **tinyllama:latest** | 2644915ede35   | 637 MB    | Smallest, fastest          |
+| **gemma:2b**       | b50d6c999e59     | 1.7 GB    | Largest, detailed output   |
 
 ---
 
