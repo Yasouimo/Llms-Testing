@@ -1,4 +1,4 @@
-# LLM Performance Comparison Report
+# LLM Performance Comparison Report 
 
 This report details the performance of several lightweight LLMs for the Declic app's recommendation engine.
 
