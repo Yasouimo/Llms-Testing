@@ -2,7 +2,7 @@ import ollama
 import json
 import time
 import re
-import pandas as pd
+import pandas as pd 
 
 # --- Configuration ---
 # Dictionary to store the parameter count (in billions) for each model.
