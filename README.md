@@ -60,7 +60,7 @@ This score balances relevance, speed, and model size. Higher scores indicate bet
 | **tinydolphin**    | 2.8            | 5.16              | 1.17                | 0.08                |
 | **phi:latest**     | 2.7            | 12.10             | 2.00                | 0.06                |
 | **gemma:2b**       | 2.0            | 10.77             | 1.00                | 0.05                |
-| **t5-large**       | 1.7            | 1.44              | 0.00                | 0.00                |
+| **t5-large**       | 1.7            | 5.44              | 0.00                | 0.00                |
 
 ---
 
