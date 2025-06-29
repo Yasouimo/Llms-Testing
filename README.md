@@ -77,13 +77,6 @@ Models like `tinyllama` and `tinydolphin` excel in speed and efficiency, making 
 - **Parameter Impact:**  
 Larger models like `phi` and `gemma:2b` have higher parameter counts, which can lead to slower processing times and lower efficiency scores despite decent match scores.
 
----
-
-## Detailed Report
-
-For a full breakdown of the results, including test case-specific performance and generated responses, see the [LLM Performance Report](LLm%20performance%20report/llm_performance_report.md).
-
----
 
 ## Conclusion
 
