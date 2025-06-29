@@ -67,7 +67,7 @@ This score balances relevance, speed, and model size. Higher scores indicate bet
 ## Key Findings
 
 ### 1. **Best Models by Category**
-- **Fastest Model:** `tinydolphin` (Average Processing Time: 5.16 seconds)
+- **Fastest Models:** `tinydolphin` and `tinyllama` (Average Processing Time: 5.16 seconds)
 - **Most Accurate Model:** `stablelm2:1.6b` (Highest Match Score: 2.33)
 - **Most Efficient Model:** `tinyllama` (Highest Efficiency Score: 0.44)
 
