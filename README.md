@@ -11,6 +11,7 @@ This project evaluates the performance of several lightweight Large Language Mod
 - **stablelm2:1.6b**  
 - **tinydolphin**  
 - **deepseek-coder:1.3b**
+- **t5-large**
 
 ---
 
@@ -27,6 +28,7 @@ The following table provides a brief comparison of the models based on their par
 | **stablelm2:1.6b** | 1.6 GB    | High relevance             |
 | **tinydolphin**    | 522 MB    | Extremely fast             |
 | **deepseek-coder:1.3b** | 909 MB | Programming-focused        |
+| **t5-large**       | ~1.2 GB   | Text-to-text transfer transformer |
 
 ---
 
@@ -58,6 +60,7 @@ This score balances relevance, speed, and model size. Higher scores indicate bet
 | **tinydolphin**    | 2.8            | 5.16              | 1.17                | 0.08                |
 | **phi:latest**     | 2.7            | 12.10             | 2.00                | 0.06                |
 | **gemma:2b**       | 2.0            | 10.77             | 1.00                | 0.05                |
+| **t5-large**       | 1.7            | 1.44              | 0.00                | 0.00                |
 
 ---
 
