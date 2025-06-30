@@ -64,14 +64,53 @@ This score balances relevance, speed, and model size. Higher scores indicate bet
 
 ---
 
+### 3. **Normalized Performance by Parameters**
+To better understand model efficiency relative to their size, we introduce normalized metrics:
+
+- **`relevance_per_param`**: Calculated as `avg_match_score / params_billions`. This shows how much relevance each billion parameters contributes.
+- **`speed_per_param`**: Calculated as `(1 / avg_time_sec) / params_billions`. This shows processing speed efficiency per billion parameters.
+
+| **Model**         | **Params (B)** | **Avg. Time (s)** | **Avg. Match Score** | **Relevance per Param** | **Speed per Param** |
+|--------------------|---------------:|------------------:|---------------------:|------------------------:|--------------------:|
+| **tinyllama**      | 1.1            | 3.928             | 2.000               | 1.818                  | 0.231              |
+| **stablelm2:1.6b** | 1.6            | 10.528            | 2.667               | 1.667                  | 0.059              |
+| **qwen:1.8b**      | 1.8            | 8.685             | 1.667               | 0.926                  | 0.064              |
+| **tinydolphin**    | 2.8            | 3.817             | 2.000               | 0.714                  | 0.094              |
+| **gemma:2b**       | 2.0            | 7.858             | 1.167               | 0.583                  | 0.064              |
+| **deepseek-coder** | 1.3            | 5.167             | 0.500               | 0.385                  | 0.149              |
+| **phi:latest**     | 2.7            | 10.452            | 1.000               | 0.370                  | 0.035              |
+
+---
+
 ## Key Findings
 
 ### 1. **Best Models by Category**
+<<<<<<< HEAD
 - **Fastest Models:** `tinydolphin` and `tinyllama` (Average Processing Time: 5.16 seconds)
+=======
+
+#### Original Efficiency Metrics:
+- **Fastest Model:** `tinydolphin` (Average Processing Time: 5.16 seconds)
+>>>>>>> daf4c7c (Adding better metrics)
 - **Most Accurate Model:** `stablelm2:1.6b` (Highest Match Score: 2.33)
 - **Most Efficient Model:** `tinyllama` (Highest Efficiency Score: 0.44)
 
-### 2. **Insights from Metrics**
+#### Parameter-Normalized Metrics:
+- **Best Relevance per Parameter:** `tinyllama` (1.818 relevance per billion parameters)
+- **Best Speed per Parameter:** `tinyllama` (0.231 speed per billion parameters)
+- **Worst Relevance per Parameter:** `phi:latest` (0.370 relevance per billion parameters)
+
+### 2. **Comparison of Evaluation Approaches**
+
+**Parameter-normalized metrics provide better insights** for model selection:
+
+- **Consistent Winner:** `tinyllama` emerges as the top performer in both approaches, excelling in efficiency, relevance per parameter, and speed per parameter.
+- **Size Matters:** The normalized approach reveals that smaller models like `tinyllama` and `stablelm2:1.6b` deliver superior value per parameter, while larger models like `phi` and `gemma:2b` show diminishing returns.
+- **Hidden Insights:** `deepseek-coder` shows reasonable speed per parameter (0.149) despite poor overall performance, suggesting it might be optimized for specific tasks rather than general use.
+
+**Key Takeaway:** Parameter-normalized metrics better reflect true model efficiency by accounting for computational cost, making them more valuable for resource-constrained applications.
+
+### 3. **Insights from Metrics**
 - **Efficiency Trade-offs:**  
 Models like `tinyllama` and `tinydolphin` excel in speed and efficiency, making them ideal for lightweight applications. However, `stablelm2:1.6b` offers the highest accuracy, which is better suited for applications requiring detailed and relevant responses.
 - **Parameter Impact:**  
