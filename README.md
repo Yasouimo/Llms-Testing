@@ -62,6 +62,11 @@ This score balances relevance, speed, and model size. Higher scores indicate bet
 | **gemma:2b**       | 2.0            | 10.77             | 1.00                | 0.05                |
 | **t5-large**       | 1.7            | 5.44              | 0.00                | 0.00                |
 
+
+```
+efficiency_score = (avg_match_score / avg_time_sec) * params_billions
+```
+
 ---
 
 ### 3. **Normalized Performance by Parameters**
