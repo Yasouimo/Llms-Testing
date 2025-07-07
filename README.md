@@ -2,7 +2,7 @@
  
 ## Overview 
 
-This project evaluates the performance of several lightweight Large Language Models (LLMs) using a dataset of test cases. The goal is to compare their capabilities, processing times, and suitability for lightweight applications. The models tested are: 
+This project evaluates the performance of several lightweight Large Language Models (LLMs) using a dataset of test cases. The goal is to compare their capabilities, processing times, and suitability for lightweight applications. The models tested are:
 
 - **phi:latest**    
 - **qwen:1.8b**  
